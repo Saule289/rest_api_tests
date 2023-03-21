@@ -9,4 +9,5 @@ import lombok.Data;
 public class ResponseModel {
 
     String name, job;
+    String token;
  }

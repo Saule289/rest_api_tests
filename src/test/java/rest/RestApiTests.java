@@ -108,5 +108,6 @@ public class RestApiTests {
             assertThat(unsuccessfulResponse.getError()).isEqualTo("Missing password");
         });
     }
+
 }
 

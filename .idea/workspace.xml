@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e51662dd-d2a9-4977-a3ff-2c9b09695c5d" name="Changes" comment="add lombok and allure">
+    <list default="true" id="e51662dd-d2a9-4977-a3ff-2c9b09695c5d" name="Changes" comment="delete unuseful imports">
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/SuccessfulLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rest/Groovy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/models/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/rest/RestApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/rest/RestApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spec/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spec/Specification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +127,8 @@
       <recent name="models" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RestApiTests.unsuccessfulRegister">
-    <configuration name="RestApiTests.createUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Groovy.successfulRegister">
+    <configuration name="Groovy.checkAvatarOfUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -134,7 +141,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;rest.RestApiTests.createUsers&quot;" />
+            <option value="&quot;rest.Groovy.checkAvatarOfUsers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -144,7 +151,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestApiTests.getListUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Groovy.checkLastNameOfUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -157,7 +164,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;rest.RestApiTests.getListUsers&quot;" />
+            <option value="&quot;rest.Groovy.checkLastNameOfUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -167,7 +174,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestApiTests.unsuccessfulRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Groovy.checkNameOfUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -180,7 +187,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;rest.RestApiTests.unsuccessfulRegister&quot;" />
+            <option value="&quot;rest.Groovy.checkNameOfUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,7 +197,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RestApiTests.updateUserInfo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Groovy.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -203,7 +210,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;rest.RestApiTests.updateUserInfo&quot;" />
+            <option value="&quot;rest.Groovy.successfulLogin&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -213,34 +220,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="api_reqres [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Groovy.successfulRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="allureServe" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;rest.Groovy.successfulRegister&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RestApiTests.unsuccessfulRegister" />
-        <item itemvalue="Gradle.RestApiTests.updateUserInfo" />
-        <item itemvalue="Gradle.RestApiTests.getListUsers" />
-        <item itemvalue="Gradle.api_reqres [allureServe]" />
-        <item itemvalue="Gradle.RestApiTests.createUsers" />
+        <item itemvalue="Gradle.Groovy.successfulRegister" />
+        <item itemvalue="Gradle.Groovy.successfulLogin" />
+        <item itemvalue="Gradle.Groovy.checkLastNameOfUser" />
+        <item itemvalue="Gradle.Groovy.checkAvatarOfUsers" />
+        <item itemvalue="Gradle.Groovy.checkNameOfUser" />
       </list>
     </recent_temporary>
   </component>
@@ -274,13 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678908733481</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="delete unuseful imports">
+      <created>1678945171088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678945171089</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added api tests" />
     <MESSAGE value="add changes" />
     <MESSAGE value="add lombok and allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lombok and allure" />
+    <MESSAGE value="delete unuseful imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete unuseful imports" />
   </component>
 </project>
