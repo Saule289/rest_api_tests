@@ -1,9 +1,7 @@
 package rest;
 
-import models.BodyResponseModel;
 import models.ResponseModel;
 import models.SuccessfulLogin;
-import models.UserData;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
